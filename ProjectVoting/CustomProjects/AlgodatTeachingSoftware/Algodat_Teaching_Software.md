@@ -2,6 +2,7 @@
 
 ## Overview
 Software to support students to understand and play with the concepts and algorithms introduced in the ALGODAT course
+
 Could help significantly to internalize the lecture content and improve over simple blackboard drawings with better animations, interaction and manipulation possibilities, coloring etc.
 
 ## Key features
@@ -22,7 +23,7 @@ Could help significantly to internalize the lecture content and improve over sim
 	- Database and background knowledge content can be added, manipulated, linked etc.
 	- Modules (i.e. algorithms) can be added (e.g. Cuckoohashing), enabled, disabled and reordered
 - Web Frontend for looking up information database and simulating the algorithms
-	- Sorting, Hashing, Dynamic Programming and Graph Algorithm Visualization and testing aquired knowledge
+	- Sorting, Hashing, Dynamic Programming and Graph Algorithm Visualization and testing acquired knowledge
 	- Convenient way to store and load played sequences, manipulate in current state (e.g. add one graph edge)
 	- Navigate within algorithm progress, switch visualization or view side-by-side
 	- View database content, related content from lecture or other sides
@@ -34,4 +35,4 @@ Could help significantly to internalize the lecture content and improve over sim
 - Visualization of some modules for the web frontend (Sorting, Hashing, maybe dynamic programming, unlikely even graphs)
 - Database of knowledge and setup of the Web Frontent Structure
 - Backend for the lector to manage content (enable/disable according to lecture progress)
-- Test aquired knowledge feature
+- Test acquired knowledge feature
