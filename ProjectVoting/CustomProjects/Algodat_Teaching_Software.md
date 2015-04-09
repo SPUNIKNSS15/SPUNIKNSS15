@@ -26,7 +26,7 @@ Could help significantly to internalize the lecture content and improve over sim
 	- Convenient way to store and load played sequences, manipulate in current state (e.g. add one graph edge)
 	- Navigate within algorithm progress, switch visualization or view side-by-side
 	- View database content, related content from lecture or other sides
-Possibly native (Android/iOS/Windows/Linux/MacOSX) client applications
+- Possible: native (Android/iOS/Windows/Linux/MacOSX) client applications
 	- Query the server for content and calculation, visualize natively (thus fluently animated and with rich interaction possibilities)
 
 
