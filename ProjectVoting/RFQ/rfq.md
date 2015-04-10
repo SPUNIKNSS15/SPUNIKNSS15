@@ -1,12 +1,14 @@
-#Request For Qualification - Team *Fancy Name*
+#Request For Qualification - Team *Fancy Name Here*
 
 ##Projects
-
 ###ISGCI Subgraph Isomorphism
+*Fabi*
 
-###Controversy Utility
+###Controversy Utility - _(Custom Project)_
+*Moritz*
 
-###Network Manager
+###Network Manager - _(Custom Project)_
+*Oli*
 
 
 ###Group Members and Contact
@@ -19,4 +21,5 @@ Fabian Späh - fabian.spaeh@uni.kn
 Dennis Fassl - dennis.fassl@uni.kn
 Valentin Hellbach - valentin.hellbach@uni.kn
 
-Please refer to Tassilo 
+####Teacher Contact
+Please refer to *whowhantsthisjob?*@uni.kn for team-oriented or cumulative questions.
