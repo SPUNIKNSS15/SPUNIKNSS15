@@ -1,13 +1,29 @@
 #Request For Qualification - Team *Fancy Name Here*
 
+##Group Members and Contact
+Tassilo Karge - tassilo.karge@uni.kn  
+Moritz Renftle - moritz.renftle@uni.kn  
+Rita Dobler - rita.dobler@uni.kn  
+Oliver Wiedemann -  oliver.wiedemann@uni.kn  
+Fabian Späh - fabian.spaeh@uni.kn  
+Dennis Fassl - dennis.fassl@uni.kn  
+Valentin Hellbach - valentin.hellbach@uni.kn  
+
+###Teacher Contact
+Please refer to *whowhantsthisjob?*@uni.kn for team-oriented or 
+cumulative questions.
+
 ##Projects
+
+The projects are listed in order of preference.
+
 ###ISGCI Subgraph Isomorphism
 
 Everyone of our team listened to the lecture "Algorithmen und Datenstrukturen"
-which gave us basic understanding of algorithms and their implememtation.
+which gave us basic understanding of algorithms and their implementation.
 The lecture also treated graphs which did "Mathematik Diskrete Strukturen" as 
 well, from a mathematical point of view. We are experienced in the programming
-language Java. Since the "Programmierkurs 1" a year ago we used it in several 
+language Java. Since the "Programmierkurs 1" one year ago we used it in several 
 other lectures. Furthermore we would like to implement an algorithm used in 
 real world applications and work with the JgraphT library and ISGCI.
 
@@ -19,7 +35,7 @@ ergänzen/löschen/ändern bzw. mein Englisch korrigieren.*
 #### 1. Background
 
 In public discussions running over longer periods of time, it often
-happens that some participants significantly change their opinions on
+happens that some participant significantly change their opinions on
 the subject.
 A popular example, is the reactor explosion in Fukushima, totally
 turning around the plans of the german government concerning the future
@@ -118,16 +134,3 @@ http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.h
 http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html – WEXT
 https://wiki.freedesktop.org/www/Software/systemd/ - systemd
 https://wiki.freedesktop.org/www/Software/dbus/ - DBUS IPC
-
-###Group Members and Contact
-Tassilo Karge - tassilo.karge@uni.kn  
-Moritz Renftle - moritz.renftle@uni.kn  
-Rita Dobler - rita.dobler@uni.kn  
-Oliver Wiedemann -  oliver.wiedemann@uni.kn  
-Fabian Späh - fabian.spaeh@uni.kn  
-Dennis Fassl - dennis.fassl@uni.kn  
-Valentin Hellbach - valentin.hellbach@uni.kn  
-
-####Teacher Contact
-Please refer to *whowhantsthisjob?*@uni.kn for team-oriented or 
-cumulative questions.
