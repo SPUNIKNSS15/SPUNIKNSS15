@@ -3,11 +3,17 @@
 ##Projects
 ###ISGCI Subgraph Isomorphism
 
-Everyone of our team listened to the lecture "Algorithmen und Datenstrukturen" which gave us basic understanding of algorithms and their implememtation. The lecture also treated graphs which did "Mathematik Diskrete Strukturen" as well, from a mathematical point of view.
-We are experienced in the programming language Java. Since the "Programmierkurs 1" a year ago we used it in several other lectures.
-Furthermore we would like to implement an algorithm used in real world applications and work with the JgraphT library and ISGCI.
+Everyone of our team listened to the lecture "Algorithmen und Datenstrukturen"
+which gave us basic understanding of algorithms and their implememtation.
+The lecture also treated graphs which did "Mathematik Diskrete Strukturen" as 
+well, from a mathematical point of view. We are experienced in the programming
+language Java. Since the "Programmierkurs 1" a year ago we used it in several 
+other lectures. Furthermore we would like to implement an algorithm used in 
+real world applications and work with the JgraphT library and ISGCI.
 
-*Mir ist jetzt noch nicht mehr dazu eingefallen, warum gerade unsere Gruppe  dieses Projekt bekommen sollte.. Ihr könnt aber gern noch was ergänzen/löschen/ändern bzw. mein Englisch korrigieren.*
+*Mir ist jetzt noch nicht mehr dazu eingefallen, warum gerade unsere Gruppe  
+dieses Projekt bekommen sollte.. Ihr könnt aber gern noch was 
+ergänzen/löschen/ändern bzw. mein Englisch korrigieren.*
 
 ###Controversy Utility - _(Custom Project)_
 #### 1. Background
