@@ -21,13 +21,13 @@ network devices.
  
 #### 2. Project Idea
 
-The scope of this project can easily be altered with regard to the required
+The scope of this project can easily be altered with regard to the intended 
 functionality. 
 
 ##### Minimal Functionality
-The bare minimum for a network manager is a command line utility to manage the
-interfaces found in /sys/class/net`. This includes the possibilities to create,
-alter, (de-)activate and delete profiles for each network the user wants
+The bare minimum for a network manager is a command line utility to administer 
+the interfaces found in `/sys/class/net`. This includes the possibilities to 
+create, alter, (de-)activate and delete profiles for each network the user wants
 to connect to.
 
 ##### Possible Functionality
@@ -36,16 +36,16 @@ to connect to.
 2. Declaring network families, e.g. based on a common SSID in order to easily
    share login information among APs in large scaled networks (e.g. Uni KN).
 3. Splitting the functionality in a daemon- and client module, connected e.g.
-   via D-Bus.
+   via D-Bus to get rid of the otherwise needed root privileges.
 4. Integrating the daemon module into the init system [cf. systemd(1)],
    in order to activate the network managers' functionality on system boot.
-5. Auto detection of more complex authentification methods [cf. RADIUS]
-   with security optimized profiles, e.g. forcing CA certificate checks and
-   certificate subject matching.
+5. Auto detection of more complex authentification methods [cf. RADIUS] while
+   offering security optimized profile templates, e.g. forcing CA certificate
+   checks and certificate subject matching.
 6. Systemwide, granularity-configurable logging functionality [cf. journalctl(1)].
 7. GUIs, either terminal based [cf. ncurses] or UI-integrated [cf. GTK+].
-8. Usage and traffic stats, graphically represented as diagrams.
-9. Logging of detected wireless networks, possibly paired with GPS data 
+8. Usage and traffic stats, graphically represented to the user as diagrams.
+9. Logging of detected wireless networks, possibly linked to GPS data 
    [cf. wardriving].
 10. Management of other networking-related wireless modules, e.g. Bluetooth.
 
@@ -61,11 +61,7 @@ http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.h
 https://wiki.freedesktop.org/www/Software/systemd/ - systemd
 https://wiki.freedesktop.org/www/Software/dbus/ - DBUS IPC
 
-
-
-
 ###Group Members and Contact
-
 Tassilo Karge - tassilo.karge@uni.kn
 Moritz Renftle - moritz.renftle@uni.kn
 Rita Dobler - rita.dobler@uni.kn
