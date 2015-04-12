@@ -63,21 +63,22 @@ specific events to shifts of opinion*.
 
 #### 2. Project Idea
 
-The idea is to design a web platform, which allows to select statements of
-public entities from different sources (e.g. a part of a YouTube video,
-a quote in a news article or magazine, wiki entry etc.) and to relate
-them with one another in a meaningful way.
+The idea is to design a web platform, which allows to select statements
+of public entities from different sources (e.g. a part of a YouTube
+video, a quote in a news article or magazine, wiki entry etc.) and to
+relate them with one another in a meaningful way.
 This can be done by unexperienced users in a graphical user interface.
 The steps may be as follows:
 
-1.  The user specifies the question of the discussion. He can choose from
-    existing questions or add a new one (works similar to tagging in
-    Twitter).
+1.  The user specifies the question of the discussion. He can choose
+    from existing questions or add a new one (works similar to tagging
+    in Twitter).
 2.  The user selects statements of one or more persons to the question.
 3.  The user enters relationships between those statements, such as
     - *contradiction:* statement contradicts either
         * prior statements of the same person or
-        * statements of members of the same interest group (e.g. political party or
+        * statements of members of the same interest group (e.g.
+          political party or
         * a well known fact (referenced by a reliable source)
 
     - *answer:* statement answers another statement (maybe of another
@@ -86,34 +87,38 @@ The steps may be as follows:
     - *etc.*
 
 By use of a database different filters on the data are possible, e.g.
+
 - Persons
 - Tags
 - Date ranges
 
 There may also be several different views, e.g.
+
 - Person based view:
-
-    ![Person based view](person_based_view.png)
     
+    ![](person_based_view.png)
+
 - Chronological view:
-
-    ![Chronological view](chronological_view.png)
     
-The controversy platform allows to monitor and analyze discussions and may
-perhaps lead to an increased focus on content rather than people and glamour.
-By allowing other internet sites to embed such views with certain parameters,
-the insights of the controversy platform could be used by journalists.
+    ![](chronological_view.png)
 
-####Why our team?
+The controversy platform allows to monitor and analyze discussions and
+may perhaps lead to an increased focus on content rather than people and
+glamour.
+By allowing other internet sites to embed such views with certain
+parameters, the insights of the controversy platform could be used by
+journalists.
+
+#### Why our team?
 
 1.  Our motivation
 
-    Most of us have closely followed political debates for years. We often
-    engage in discussions about topics of public interest by ourselves.
-    We believe that unnoticed shifts of opinion of public entities can lead
-    to bad decision making and cause damage to the quality of public
-    discussion. In short, our team understands the problem domain and
-    can therefore build an adequate solution.
+    Most of us have closely followed political debates for years. We
+    often engage in discussions about topics of public interest by
+    ourselves. We believe that unnoticed shifts of opinion of public
+    entities can lead to bad decision making and cause damage to the
+    quality of public discussion. In short, our team understands the
+    problem domain and can therefore build an adequate solution.
 
 2.  Our technical knowledge
 
@@ -122,17 +127,24 @@ the insights of the controversy platform could be used by journalists.
     design relational databases.
 
     Secondly, most of us have already worked on web projects, including
-    [InvGroup] [1] and [KargeMuehle] [2]. As a result, we know how to use
-    the standard web technologies (PHP, JavaScript, CSS, etc.).
+    e.g. the info site of the university group "Investment group"
+    [(1)] [invgroup] and the web site of a mill store
+    [(2)] [kargemuehle]. As a result, we know how to use the standard
+    web technologies (PHP, JavaScript, CSS, etc.).
 
     Finally, we have members that are experienced in designing user
     interfaces for different platforms and form factors, which makes us
     confident that our platform will be intuitive and user friendly.
 
-#### Web projects of team members
+#### Sample web projects of our team members
 
-[1]: http://investment-group.org/
-[2]: http://karge-muehle.de/
+(1) [http://investment-group.org/][invgroup]
+(2) [http://karge-muehle.de/][kargemuehle] 
+
+[invgroup]: http://investment-group.org/ "Investment Group"
+[kargemuehle]: http://karge-muehle.de/ "Karge Mühle"
+
+####
 
 ###Network Manager - _(2 Points, Custom Project)_
 #### 1. Background
