@@ -105,7 +105,7 @@ By allowing other internet sites to embed such views with certain
 parameters, the insights of the controversy platform could be used by
 journalists.
 
-#### Why our team?
+#### Why our Team?
 
 1.  Our motivation
 
@@ -150,6 +150,10 @@ This is where a network manager comes in handy - a user friendly utility
 to keep track of the various configurations and settings needed so that
 even techically unaware personnel is enabled to set up and administer
 network devices.
+Writing a new tool from scratch is reasonable as most of the existing 
+solutions either lack some kind of functionality or depend excessively
+on other libraries and packages. Missing modularity therefore leads to bloated
+software that dosen't fit the users needs in many cases.
  
 #### 2. Project Idea
 
@@ -193,3 +197,7 @@ to connect to.
 - <http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html> - WEXT
 - <https://wiki.freedesktop.org/www/Software/systemd/> - systemd
 - <https://wiki.freedesktop.org/www/Software/dbus/> - DBUS IPC
+
+
+
+
