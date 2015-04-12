@@ -1,17 +1,15 @@
-# Request For Qualification - Team *Fancy Name Here*
+# Software Development Proposal - Team SPUNIKNSS15
 
 ## Group Members and Contact
-Tassilo Karge - tassilo.karge@uni.kn  
-Moritz Renftle - moritz.renftle@uni.kn  
-Rita Dobler - rita.dobler@uni.kn  
-Oliver Wiedemann -  oliver.wiedemann@uni.kn  
-Fabian Späh - fabian.spaeh@uni.kn  
-Dennis Fassl - dennis.fassl@uni.kn  
-Valentin Hellbach - valentin.hellbach@uni.kn  
 
-### Teacher Contact
-Please refer to *whowhantsthisjob?*@uni.kn for team-oriented or 
-cumulative questions.
+Oliver Wiedemann -  <oliver.wiedemann@uni.kn> *(Teacher contact person)*
+
+Tassilo Karge - <tassilo.karge@uni.kn>  
+Moritz Renftle - <moritz.renftle@uni.kn>  
+Rita Dobler - <rita.dobler@uni.kn>  
+Fabian Späh - <fabian.spaeh@uni.kn>  
+Dennis Fassl - <dennis.fassl@uni.kn>  
+Valentin Hellbach - <valentin.hellbach@uni.kn>
 
 ## Projects
 
@@ -37,7 +35,8 @@ used to the ISGCI environment and the API of the JgraphT library.
 All in all, we are interested in the algorithm and believe our team
 meets the necessary requirements for its implementation in Java.
 
-###Controversy Platform - _(3 Points, Custom Project)_
+### Controversy Platform - _(3 Points, Custom Project)_
+
 #### 1. Background
 
 In public discussions running over longer periods of time, it often
@@ -80,7 +79,6 @@ The steps may be as follows:
         * statements of members of the same interest group (e.g.
           political party or
         * a well known fact (referenced by a reliable source)
-
     - *answer:* statement answers another statement (maybe of another
       person)
     - *criticizes:* statement critizes statement of another person
@@ -95,12 +93,12 @@ By use of a database different filters on the data are possible, e.g.
 There may also be several different views, e.g.
 
 - Person based view:
-    
-    ![](person_based_view.png)
+
+  ![](person_based_view.png)
 
 - Chronological view:
-    
-    ![](chronological_view.png)
+
+  ![](chronological_view.png)
 
 The controversy platform allows to monitor and analyze discussions and
 may perhaps lead to an increased focus on content rather than people and
@@ -136,8 +134,6 @@ journalists.
     interfaces for different platforms and form factors, which makes us
     confident that our platform will be intuitive and user friendly.
 
-#### Sample web projects of our team members
-
 (1) [http://investment-group.org/][invgroup]
 (2) [http://karge-muehle.de/][kargemuehle] 
 
@@ -145,6 +141,7 @@ journalists.
 [kargemuehle]: http://karge-muehle.de/ "Karge Mühle"
 
 ### Network Manager - _(2 Points, Custom Project)_
+
 #### 1. Background
 
 Computer networking is difficult and even though the Linux kernel, device
@@ -187,13 +184,14 @@ to connect to.
 10. Management of other networking-related wireless modules, e.g. Bluetooth.
 
 #### Reference Projects
-https://projects.gnome.org/NetworkManager  
-https://wicd.sourceforge.net  
-https://01.org/connman  
-https://projects.archlinux.org/netctl.git  
-http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html
+
+- <https://projects.gnome.org/NetworkManager>
+- <https://wicd.sourceforge.net>
+- <https://01.org/connman>
+- <https://projects.archlinux.org/netctl.git>
+- <http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html>
 
 #### Infos
-http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html - WEXT  
-https://wiki.freedesktop.org/www/Software/systemd/ - systemd  
-https://wiki.freedesktop.org/www/Software/dbus/ - DBUS IPC
+- <http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html> - WEXT
+- <https://wiki.freedesktop.org/www/Software/systemd/> - systemd
+- <https://wiki.freedesktop.org/www/Software/dbus/> - DBUS IPC
