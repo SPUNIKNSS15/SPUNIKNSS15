@@ -92,12 +92,10 @@ By use of a database different filters on the data are possible, e.g.
 
 There may also be several different views, e.g.
 
-- Person based view:
-
+- Person based view:  
   ![](person_based_view.png)
 
-- Chronological view:
-
+- Chronological view:  
   ![](chronological_view.png)
 
 The controversy platform allows to monitor and analyze discussions and
