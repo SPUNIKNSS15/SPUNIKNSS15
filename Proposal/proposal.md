@@ -15,23 +15,29 @@ cumulative questions.
 
 ##Projects
 
-The projects are listed in order of preference.
+The projects are listed in order of preference, with the respective
+number of points specified in brackets.
 
-###ISGCI Subgraph Isomorphism
+###ISGCI Subgraph Isomorphism - _(4 Points)_
 
-Everyone of our team listened to the lecture "Algorithmen und Datenstrukturen"
-which gave us basic understanding of algorithms and their implementation.
-The lecture also treated graphs which did "Mathematik Diskrete Strukturen" as 
-well, from a mathematical point of view. We are experienced in the programming
-language Java. Since the "Programmierkurs 1" one year ago we used it in several 
-other lectures. Furthermore we would like to implement an algorithm used in 
-real world applications and work with the JgraphT library and ISGCI.
+Every member of our team attended the lectures "Algorithmen und
+Datenstrukturen" (Algodat) and "Mathematik Diskrete Strukturen" (MDS).
+In Algodat we earned basic understanding of algorithms and their
+implementation, including problem solving using graphs.
 
-*Mir ist jetzt noch nicht mehr dazu eingefallen, warum gerade unsere Gruppe  
-dieses Projekt bekommen sollte.. Ihr könnt aber gern noch was 
-ergänzen/löschen/ändern bzw. mein Englisch korrigieren.*
+MDS covered graphs as well, but from a mathematical point of view. We
+are therefore convinced, that we have the necessary understanding of
+graph theory to implement the VFLib2 algorithm.
 
-###Controversy Utility - _(Custom Project)_
+We also attended the lecture "Programmierkurs 1" one year ago, where we
+were introduced to the Java programming language. Since then, we used
+Java in several lectures. Thus we are certain, that we will quickly get
+used to the ISGCI environment and the API of the JgraphT library.
+
+All in all, we are interested in the algorithm and believe our team
+meets the necessary requirements for its implementation in Java.
+
+###Controversy Platform - _(3 Points, Custom Project)_
 #### 1. Background
 
 In public discussions running over longer periods of time, it often
@@ -50,10 +56,10 @@ object to this idea.
 Such changes are usually difficult to keep track of as an individual,
 because media covers only the last few weeks of events.
 It would be nice to have a platform, which makes it easy to document
-contradictions or changes happening in the opinion of politicians or
+contradictions or shifts happening in the opinion of politicians or
 other public entities, allowing to measure characteristics like
 *trustworthyness* or *consistency of opinions* as well as *linking
-specific events to changes of opinion*.
+specific events to shifts of opinion*.
 
 #### 2. Project Idea
 
@@ -80,8 +86,55 @@ The steps may be as follows:
     - *etc.*
 
 By use of a database different filters on the data are possible, e.g.
+- Persons
+- Tags
+- Date ranges
 
-###Network Manager - _(Custom Project)_
+There may also be several different views, e.g.
+- Person based view:
+
+    ![Person based view](person_based_view.png)
+    
+- Chronological view:
+
+    ![Chronological view](chronological_view.png)
+    
+The controversy platform allows to monitor and analyze discussions and may
+perhaps lead to an increased focus on content rather than people and glamour.
+By allowing other internet sites to embed such views with certain parameters,
+the insights of the controversy platform could be used by journalists.
+
+####Why our team?
+
+1.  Our motivation
+
+    Most of us have closely followed political debates for years. We often
+    engage in discussions about topics of public interest by ourselves.
+    We believe that unnoticed shifts of opinion of public entities can lead
+    to bad decision making and cause damage to the quality of public
+    discussion. In short, our team understands the problem domain and
+    can therefore build an adequate solution.
+
+2.  Our technical knowledge
+
+    We all have experience in web development. Firstly, we attended the
+    lecture "Datenbanksysteme" in the last semester where we learned to
+    design relational databases.
+
+    Secondly, most of us have already worked on web projects, including
+    [InvGroup] [1] and [KargeMuehle] [2]. As a result, we know how to use
+    the standard web technologies (PHP, JavaScript, CSS, etc.).
+
+    Finally, we have members that are experienced in designing user
+    interfaces for different platforms and form factors, which makes us
+    confident that our platform will be intuitive and user friendly.
+
+#### Web projects of team members
+
+[1]: http://investment-group.org/
+[2]: http://karge-muehle.de/
+
+###Network Manager - _(2 Points, Custom Project)_
 #### 1. Background
 
 Computer networking is difficult and even though the Linux kernel, device
@@ -131,6 +184,6 @@ https://projects.archlinux.org/netctl.git
 http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html
 
 #### Infos
-http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html – WEXT
-https://wiki.freedesktop.org/www/Software/systemd/ - systemd
+http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html - WEXT 
+https://wiki.freedesktop.org/www/Software/systemd/ - systemd 
 https://wiki.freedesktop.org/www/Software/dbus/ - DBUS IPC
