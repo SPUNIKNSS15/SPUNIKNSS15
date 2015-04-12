@@ -40,7 +40,7 @@ meets the necessary requirements for its implementation in Java.
 #### 1. Background
 
 In public discussions running over longer periods of time, it often
-happens that some participant significantly change their opinions on
+happens that some participants significantly change their opinions on
 the subject.
 A popular example, is the reactor explosion in Fukushima, totally
 turning around the plans of the german government concerning the future
