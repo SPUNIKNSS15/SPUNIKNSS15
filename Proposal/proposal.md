@@ -1,6 +1,6 @@
-#Request For Qualification - Team *Fancy Name Here*
+# Request For Qualification - Team *Fancy Name Here*
 
-##Group Members and Contact
+## Group Members and Contact
 Tassilo Karge - tassilo.karge@uni.kn  
 Moritz Renftle - moritz.renftle@uni.kn  
 Rita Dobler - rita.dobler@uni.kn  
@@ -9,16 +9,16 @@ Fabian Späh - fabian.spaeh@uni.kn
 Dennis Fassl - dennis.fassl@uni.kn  
 Valentin Hellbach - valentin.hellbach@uni.kn  
 
-###Teacher Contact
+### Teacher Contact
 Please refer to *whowhantsthisjob?*@uni.kn for team-oriented or 
 cumulative questions.
 
-##Projects
+## Projects
 
 The projects are listed in order of preference, with the respective
 number of points specified in brackets.
 
-###ISGCI Subgraph Isomorphism - _(4 Points)_
+### ISGCI Subgraph Isomorphism - _(4 Points)_
 
 Every member of our team attended the lectures "Algorithmen und
 Datenstrukturen" (Algodat) and "Mathematik Diskrete Strukturen" (MDS).
@@ -144,9 +144,7 @@ journalists.
 [invgroup]: http://investment-group.org/ "Investment Group"
 [kargemuehle]: http://karge-muehle.de/ "Karge Mühle"
 
-####
-
-###Network Manager - _(2 Points, Custom Project)_
+### Network Manager - _(2 Points, Custom Project)_
 #### 1. Background
 
 Computer networking is difficult and even though the Linux kernel, device
@@ -189,13 +187,13 @@ to connect to.
 10. Management of other networking-related wireless modules, e.g. Bluetooth.
 
 #### Reference Projects
-https://projects.gnome.org/NetworkManager 
-https://wicd.sourceforge.net 
-https://01.org/connman 
-https://projects.archlinux.org/netctl.git
+https://projects.gnome.org/NetworkManager  
+https://wicd.sourceforge.net  
+https://01.org/connman  
+https://projects.archlinux.org/netctl.git  
 http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html
 
 #### Infos
-http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html - WEXT 
-https://wiki.freedesktop.org/www/Software/systemd/ - systemd 
+http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Extensions.html - WEXT  
+https://wiki.freedesktop.org/www/Software/systemd/ - systemd  
 https://wiki.freedesktop.org/www/Software/dbus/ - DBUS IPC
