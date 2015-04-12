@@ -146,14 +146,16 @@ Computer networking is difficult and even though the Linux kernel, device
 drivers and additional modules like the wpa\_supplicant already offer some kind 
 of "high level" abstract interface, most users will be bugged
 by manually configuring even the simplest kinds of (wireless) networks.
+
 This is where a network manager comes in handy - a user friendly utility
 to keep track of the various configurations and settings needed so that
 even techically unaware personnel is enabled to set up and administer
 network devices.
-Writing a new tool from scratch is reasonable as most of the existing 
-solutions either lack some kind of functionality or depend excessively
-on other libraries and packages. Missing modularity therefore leads to bloated
-software that dosen't fit the users needs in many cases.
+
+Writing a new tool from scratch is reasonable, as most of the existing 
+solutions either lack some kind of functionality or depend on too many
+other libraries and packages. This lack of modularity leads to bloated
+software that doesn't fit the users needs in many aspects.
  
 #### 2. Project Idea
 
