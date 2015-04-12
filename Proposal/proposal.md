@@ -2,9 +2,9 @@
 
 ## Group Members and Contact
 
-Oliver Wiedemann -  <oliver.wiedemann@uni.kn> *(Teacher contact person)*
+Tassilo Karge - <tassilo.karge@uni.kn> *(Teacher contact person)*
 
-Tassilo Karge - <tassilo.karge@uni.kn>  
+Oliver Wiedemann -  <oliver.wiedemann@uni.kn>  
 Moritz Renftle - <moritz.renftle@uni.kn>  
 Rita Dobler - <rita.dobler@uni.kn>  
 Fabian Späh - <fabian.spaeh@uni.kn>  
