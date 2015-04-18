@@ -1,4 +1,4 @@
-#ISGCI Subgraph Isomorphism - Team UNIKNSS15
+#ISGCI Subgraph Isomorphism - Team SPUNIKNSS15
 
 Dear Mr de Ridder,
 
@@ -91,10 +91,10 @@ forcing ourselves to write good documentation, perform code reviews and
 unittesting in every sprint. This enables us to dynamically allocate human 
 ressources as needed, maintain a high degree of customer contact and develop
 with relatively low bureaucratic overhead, whilst still delivering 
-the best possible result in the aftermath.
+the best possible result.
 
 ##Progress Tracking, Issue Tracking and Revision Control
-Overall progress is tracked by checking items on our rodmap, respectively
+Overall progress is tracked by checking items on our roadmap, respectively
 our milestones in a coarser scope. This will be applicable due to the
 relatively small project extent of only approximately eleven weeks. 
 
@@ -107,7 +107,7 @@ it into the main project on GitHub shall be no problem.
 If the customer wishes to keep tasks one and three closed source,
 we will take care of hosting our own centralized GIT repository
 on a team internal server, provided by one of our members.
-Anyways, issue- and revision control are always closely related to the code,
+Anyway, issue and revision control are always closely related to the code,
 therefore combining both using GIT is substantially enhancing our productivity.
 
 
@@ -140,7 +140,7 @@ regarding the VF2 graph implementation due to her specialized skillset.
 ####Fabian Späh - <fabian.spaeh@uni.kn>
 *Analyst* - Fabian is very good at writing code in almost every facet of
 computer sciences' broad range. He has done almost everything from
-web-porojects to compiler construction and therefore qualifies best as 
+web-projects to compiler construction and therefore qualifies best as 
 our analyst.
 
 ####Valentin Hellbach - <valentin.hellbach@uni.kn>
@@ -152,7 +152,7 @@ besides contributing his code.
 
 ####Moritz Renftle - <moritz.renftle@uni.kn>
 *Architect* - Moritz has a large open source project written in python hosted
-at SourceForge, he thereby knows how to well-design good object oriented
+at SourceForge, he thereby knows how to well-design object oriented
 software systems. Architectural work such as the interoperation between modules,
 cohesion and the balance between features and purposefulness are his profession. 
 
