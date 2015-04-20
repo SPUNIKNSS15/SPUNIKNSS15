@@ -103,32 +103,32 @@ We strongly prefer scrum with self-imposed quality assurance
 forcing ourselves to write good documentation, perform code reviews and 
 unit testing in every sprint. This enables us to dynamically allocate human 
 ressources as needed, maintain a high degree of customer contact and develop
-with relatively low bureaucratic overhead, whilst still delivering 
-the best possible result. Scrum is obviously just an outer developmental
-framework. Finer structures will be choosen depending on the results of the
-analysis phases, the requirements of the projects,
-the preferences of the team members and according to customers 
-guidelines regarding each of the three tasks. 
+with relatively low bureaucratic overhead, while still delivering 
+the best possible result.
 
 ##Progress Tracking, Issue Tracking and Revision Control
-Overall progress is tracked by updating items on our milestones 
-in a coarse scope, while the view of resolved and open issues will be used 
-to visualize the fine-grained progress. 
-This kind of tracking is applicable due to the
-relatively small project extent of only approximately eleven weeks. 
+The coarse progress will be tracked using simple markers on our
+milestones.
+More detailed information on the project progress can be gained online
+using a view of resolved and open issues (probably on GitHub).
+Due to the relatively small project extent we consider those means
+of progress tracking sufficient.
 
-Issue tracking is - as in case of the JgraphT library - best performed
-by the GitHub internal issue tracking system. JgraphT is licensed under
+An essential argument for our choice of the GitHub issue tracking
+system is, that it is also used by the JGraphT library which we are
+going to use in our project. JgraphT is licensed under
 the GNU LGPL with their respective main repository already on GitHub,
 therefore forking them, implementing the new feature and reintegrating
-it into the main project on GitHub shall be no problem. For the other tasks,
+it into the main project on GitHub should be no problem.
+For the other tasks,
 we would like to use the same platform, after getting your agreement.
 
-If the you wish to keep tasks one and three closed source,
+If you wish to keep tasks one and three closed source,
 we will take care of hosting our own centralized GIT repository
 on a team internal server, provided by one of our members.
-Anyway, issue and revision control are always closely related to the code,
-therefore combining both using GitHub would be substantially enhancing our productivity.
+But please bear in mind, that issue and revision control are always closely
+related to the code, combining both using GitHub is going to substantially
+enhance our productivity.
 
 
 ##Meeting Schedules
@@ -136,8 +136,9 @@ Our team will meet at least once a week on thursday, 17:00 to discuss
 further development and sprint details. Every two weeks, Tino Klingebiel,
 our external advisor and consultant, will also participate in the meeting.
 
-Customer meetings will be definitely held on every milestone, on your
-request and in case of serious ambiguities/problems during the development.
+Customer meetings will at least be held on every milestone, but also on
+your request or in case of serious ambiguities or problems during
+the development.
 
 ##Team Members and Responsibilities
 
@@ -149,7 +150,7 @@ for the overall project success. *Tassilo is also our teacher contact person*.
 
 ####Dennis Fassl - <dennis.fassl@uni.kn> 
 *Customer relationship manager* - Dennis can be very convincing and remains
-level-headed even in heated discussions. He's your direct wire to our team 
+level-headed even in heated discussions. He is your direct wire to our team 
 and will do his best to keep you up to date.
 
 ####Rita Dobler - <rita.dobler@uni.kn>  
@@ -159,22 +160,23 @@ regarding the VF2 graph implementation due to her specialized skillset.
 
 ####Fabian Späh - <fabian.spaeh@uni.kn>
 *Analyst* - Fabian is very good at writing code in almost every facet of
-computer sciences' broad range. He has done almost everything from
+computer science. He has done almost everything from
 web-projects to compiler construction and therefore qualifies best as 
 our analyst.
 
 ####Valentin Hellbach - <valentin.hellbach@uni.kn>
 *OS expert / Software Support* - Valentin has worked a lot at the
-U'Kon "Rechenzentrum", the universitys IT centre. He is the most
-experienced in our team regarding MS-Windows operating systems and end-user
-software, therefore he will provide the whole team with software support
-besides contributing his code. 
+U'Kon "Rechenzentrum", the universities IT center. He is the most
+experienced member of our team regarding MS-Windows operating systems
+and end-user software, therefore he will provide the whole team with
+software support besides contributing his code. 
 
 ####Moritz Renftle - <moritz.renftle@uni.kn>
-*Architect* - Moritz has a large open source project written in python hosted
-at SourceForge, he thereby knows how to well-design object oriented
-software systems. Architectural work such as the interoperation between modules,
-cohesion and the balance between features and purposefulness are his profession. 
+*Architect* - Moritz has written and maintained a large open source
+project written in python for several years. As a result, he has lots of
+experience concerning the design and implementation of object oriented
+software systems. Architectural design, such as module interoperation,
+cohesion or the balance between features and purposefulness is his profession.
 
 ####Oliver Wiedemann - <oliver.wiedemann@uni.kn>
 *Hosting expert / release manager* - Besides software construction, Oliver will
