@@ -13,18 +13,257 @@
 \beamertemplatenavigationsymbolsempty
 
 
+\setbeamertemplate{section in toc}{\hspace*{1em}\inserttocsection}
+%\setbeamertemplate{subsection in toc}{\hspace*{2em}\inserttocsubsection}
+
+
 \title[Project Plan]{Project Plan}
 \author[SPUNIKNSS15]{Team SPUNIKNSS15}
 \date[21.4.15]{21. April 2015}
-\logo{\pgfimage[height=3cm]{UniKonstanz_Logo_Optimum_sRGB}}
+%\logo{\pgfimage[height=3cm]{UniKonstanz_Logo_Optimum_sRGB}}
 \subject{ISGCI and Subgraph Isomorphism}
 
 \begin{document}
 \frame{\titlepage}
 
-\begin{frame}
-Bla
-\end{frame}
+\frame{
+	\frametitle{Topics}
+	\tableofcontents
+}
+
+\section{Project Organisation}
+
+\frame{
+	\frametitle{Project Tasks}
+
+	\begin{block}{Task 1: VF2 Implementation}
+	Implementation of the VF2 graph matching algorithm, contributing
+	it to the JgraphT library.
+	\end{block}
+
+	\begin{block}{Task 2: Changes on ISGCI}
+	Changing the way smallgraphs are stored in ISGCI from
+	adjacency matrices to JgraphT graph objects.
+	\end{block}
+
+	\begin{block}{Task 3: Implementing the forbids-relation}
+	Combining the results from task 1 and 2 to implement the
+	smallgraph forbids-relation in ISGCI.
+	\end{block}
+}
+
+\frame{
+	\frametitle{Task parallelization}
+
+	Since tasks 1 and 2 are independent, we have decided to split our team
+	and work on both in parallel:
+
+	\begin{columns}
+	\column{0.45\textwidth}
+	\begin{block}{Task 1: VF2 Algorithm}
+	\begin{itemize}
+	\item Forking JgraphT
+	\item Implementing VF2
+	\end{itemize}	
+
+	\end{block}
+	\column{0.45\textwidth}
+	\begin{block}{Task 2: ISGCI Storage}
+	\begin{itemize}
+	\item Forking ISGCI
+	\item Replacing graph storage 
+	\end{itemize}
+	\end{block}
+	\end{columns}
+
+
+	\begin{columns}
+	\column{0.96\textwidth}
+	\begin{block}{Task 3: Forbids Relation}
+	\begin{itemize}
+	\item Experts from both tasks work on the final task together.
+	\item Utilizing our VF2 implementation and integrating it in ISGCI.
+	\item Implementing the forbids-relation.
+	\end{itemize}
+
+	\end{block}
+	\end{columns}
+}
+
+\subsection{Roadmap and Milestones}
+\frame{
+	\frametitle{Roadmap and Milestones}
+
+	\begin{columns}
+	\column{0.96\textwidth}
+	\begin{block}{Milestone 1: Initial Effort Analysis}
+	\begin{itemize}
+	\item Initial customer relationship management
+	\item Team member allocation
+	\item Determining time frames
+	\item Conceptual planning for tasks one and two
+	\end{itemize}
+	\end{block}	
+	\end{columns}
+
+
+
+	\begin{columns}
+	\column{0.45\textwidth}
+	\begin{block}{Milestone 2a: VF2}
+	\begin{itemize}
+	\item Implemented VF2 into JgraphT
+	\item All unit- and integration tests successful
+	\item Documentation was written
+	\item Customer acceptance testing performed
+	\end{itemize}
+	\end{block}
+
+	\column{0.45\textwidth}
+	\begin{block}{Milestone 2b: Matrices}
+	\begin{itemize}
+	\item Replaced adjacency matrices with JgraphT objects
+	\item All unit- and integration tests successful
+	\item Documentation was written
+	\item Customer acceptance testing performed
+	\end{itemize}
+	\end{block}	
+
+	\end{columns}
+
+}
+
+\frame{
+	\frametitle{Roadmap and Milestones}
+	\begin{block}{Milestone 3: Second Effort Analysis}
+	\begin{itemize}
+	\item Remaining time is fixed
+	\item Readjusting team workloads as needed 
+	\item Conceptional planning for task three
+	\end{itemize}
+	\end{block}
+	\begin{block}{Milestone 4: Second Implementation Phase, Project Closure}
+	\begin{itemize}
+	\item Integrated JgraphT-VF2 into the modified ISGCI
+	\item Implemented the graphing forbids-relation
+	\item Rigorous code reviewing performed
+	\item All unit and integration tests succeeded
+	\item Documentation was written
+	\item Customer acceptance testing performed
+	\end{itemize}
+	\end{block}
+}
+
+
+
+
+\subsection{Development Methodology}
+\frame{
+	\frametitle{Development Methodology}
+	\begin{block}{Scrum as a Project Management Framework}
+	\begin{itemize}
+	\item Dynamic human-ressources allocation
+	\item Low bureaucratic overhead
+	\item Flexible customer contact
+	\item Self-imposed quality assurance guarantees:
+		\begin{itemize}
+		\item Documentation quality
+		\item Rigorous testing
+		\item Extensive code reviews
+		\end{itemize}
+	\item Finer-grained methods will be choosen during the analysis phase,
+		depending on:
+
+		\begin{itemize}
+		\item Project requirements
+		\item Team member preferences
+		\item Customer guidelines	
+		\end{itemize}
+
+		Individually for each of the three tasks.
+	\end{itemize}	
+	\end{block}
+}
+
+\subsection{Progress Tracking, Issue Tracking and Revision Control}
+\frame{
+	\frametitle{Progress Tracking, Issue Tracking, Revision Control}
+	\begin{block}{Overall}
+	\begin{itemize}
+	\item Utilizing our roadmap 
+	\item This is applicable since the project relatively small 
+	\end{itemize}
+	\end{block}
+	
+	\begin{block}{Task 1: VF2 Implementation}
+	\begin{itemize}
+	\item The JgraphT is hosted on GitHub, licensed under the GNU LGPL	
+	\item We will therefore fork them on GitHub
+	\item Progress- and issue tracking and especially revision control
+	      realized on GitHub
+	\end{itemize}
+	\end{block}		
+}
+
+\frame{
+	\frametitle{Progress Tracking, Issue Tracking, Revision Control}
+	
+	We would like to use GitHub for the other tasks as well, your
+	agreement presumed.
+	\begin{block}{Task 2: Improving ISGCI}
+	\begin{itemize}
+	\item Forking ISGCI from git.graphclasses.org
+	\item According to CC-BY-SA, GitHub should be no problem
+	\item We're asking anyways, could be a closed-source only feature
+		separate from the main project
+	\end{itemize}
+	\end{block} 
+
+	\begin{block}{Task 3: Forbids-relation}
+	\begin{itemize}
+	\item See task 2 
+	\end{itemize}
+	\end{block}
+
+}
+\section{Meeting Schedules}
+
+\frame{
+	\frametitle{Meeting Schedule}
+	\begin{block}{Weekly Meetings}
+	\begin{itemize}
+	\item Team-meetings will take place at least once a 
+		week on thursday, 17:00	
+	\item Tino will attend those meetings every two weeks
+	\item Additional meetings will be scheduled as necessary
+	\end{itemize}
+	\end{block}
+	\begin{block}{Customer Meetings}
+	\begin{itemize}
+	\item Definitely held on every milestone
+	\item On request
+	\item Held in case of ambiguities or problems	
+	\end{itemize}
+	\end{block}
+
+}
+
+\section{Team Introduction and Responsibilities}
+
+\frame{
+	\frametitle{Team Membes and Resposibilities}
+	\begin{itemize}
+	\item \textbf{Tassilo Karge} - Chairman
+	\item \textbf{Dennis Fassl} - Customer Relationship Manager
+	\item \textbf{Rita Dobler} - Domain Expert
+	\item \textbf{Fabian Späh} - Analyst
+	\item \textbf{Valentin Hellbach} - OS Expert / Software Support
+	\item \textbf{Moritz Renftle} - Architect
+	\item \textbf{Oliver Wiedemann} - Hosting Expert / Release Manager
+	\end{itemize}
+		
+
+}
 
 \end{document}
 
