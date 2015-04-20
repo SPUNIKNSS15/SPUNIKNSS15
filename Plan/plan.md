@@ -6,7 +6,7 @@ thank you for choosing our team among several competitors to contribute
 the proposed features to the JgraphT library and the ISGCI graph class
 information system.
 We are very pleased with your mandate and we will do our best to
-satisfy your needs and expectations in this regard.
+satisfy your needs and expectations.
 
 Below, we describe how we are going to execute the project 
 during the next eleven weeks,
@@ -60,7 +60,7 @@ Our *Milestones* are enumbered, critera to accomplish to reach them are
 itemized below each respective milestone: 
 
 
-1. **Finished the initial effort analysis**
+1. *Finished the initial effort analysis*
 	- Initial customer relationship management
 	- Team member allocation done
 	- Time frames determined
@@ -116,7 +116,7 @@ by the GitHub internal issue tracking system. JgraphT is licensed under
 the GNU LGPL with their respective main repository already on GitHub,
 therefore forking them, implementing the new feature and reintegrating
 it into the main project on GitHub shall be no problem. For the other tasks,
-we would like to use the same platform after getting your agreement.
+we would like to use the same platform, after getting your agreement.
 
 If the you wish to keep tasks one and three closed source,
 we will take care of hosting our own centralized GIT repository
@@ -142,12 +142,12 @@ of team integration and motivation, he became our chairman and is responsible
 for the overall project success. *Tassilo is also our teacher contact person*.
 
 ####Dennis Fassl - <dennis.fassl@uni.kn> 
-*Customer Relationship Manager* - Dennis can be very convincing and remains
+*Customer relationship manager* - Dennis can be very convincing and remains
 level-headed even in heated discussions. He's your direct wire to our team 
 and will do his best to keep you up to date.
 
 ####Rita Dobler - <rita.dobler@uni.kn>  
-*Domain Expert* - Rita has a diploma in maths, lots of teamwork experience
+*Domain expert* - Rita has a diploma in maths, lots of teamwork experience
 and outstands in her theoretical knowledge. She will be very valuable 
 regarding the VF2 graph implementation due to her specialized skillset.
 
@@ -158,7 +158,7 @@ web-projects to compiler construction and therefore qualifies best as
 our analyst.
 
 ####Valentin Hellbach - <valentin.hellbach@uni.kn>
-*OS Expert / Software Support* - Valentin has worked a lot at the
+*OS expert / Software Support* - Valentin has worked a lot at the
 U'Kon "Rechenzentrum", the universitys IT centre. He is the most
 experienced in our team regarding MS-Windows operating systems and end-user
 software, therefore he will provide the whole team with software support
@@ -171,7 +171,7 @@ software systems. Architectural work such as the interoperation between modules,
 cohesion and the balance between features and purposefulness are his profession. 
 
 ####Oliver Wiedemann - <oliver.wiedemann@uni.kn>
-*Hosting Expert / Release Manager* - Besides software construction, Oliver will
+*Hosting expert / release manager* - Besides software construction, Oliver will
 be responsible for hosting and maintaining the team's own server backend. 
 Most of his projects were close to the OS or even the underlying hardware.
 Computer networking, fine-tuning algorithms and datastructures and customizing
