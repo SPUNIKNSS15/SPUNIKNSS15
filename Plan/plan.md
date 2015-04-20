@@ -8,7 +8,7 @@ information system.
 We are very pleased with your mandate and we will do our best to
 satisfy your needs and expectations.
 
-Below, we describe how we are going to execute the project 
+Below, we describe how we are going to realize the project 
 during the next eleven weeks,
 covering both temporal and personnel concerns.
 
@@ -19,34 +19,40 @@ july 2015. These are:
 
 1. Implementing the VF2 graph matching algorithm in Java and contributing
    it to the JgraphT library.
-2. Replaceing the adjacency matrices for smallgraph storage used in 
+2. Replacing the adjacency matrices for smallgraph storage used in 
    the ISGCI project with JgraphT objects.
-3. Integrating our JgraphT-VF2 implementation from task 1 into ISGCI
-   whilst making use of the changes made in task 2 to finally implement
-   the forbids-relation into the ISGCI Java application.
+3. Integrating our JgraphT-VF2 implementation from task one into ISGCI
+   and implementing the forbids-relation in ISGCI, building on the work done
+   in task two.
 
 We have come to the conclusion that splitting our team into two subdivisions
 to tackle tasks one and two in parallel is the best approach to the given
-situation. Since complex algorithms such as VF2 aren't suitable to be 
-implemented in large teams, we prefer to let a team of two or three 
-math and algorithm experts take care of task one while the more 
-software engineering heavy business of task two will be taken care 
-of simultaneously by another part of the team.
-Both jobs are completely independent, therefore working on them at the same
-time won't cause any problems and will dramatically reduce communication
-overhead, thus increasing implementation speed and software quality.
+situation.
+The reason for this is that the complex VF2 algorithm is difficult
+to split up in multiple tasks and therefore not well suited for 
+collaboration within a large team. We consider it a better strategy to
+let a team of at most three math and algorithm experts take care of task
+one, while the other members work on task two simultaneously.
+This also allows us to separate the two disciplines "algorithmics" and
+"software engineering" more effectively.
+
+As both tasks are completely independent, working on them at the same
+time is not going to cause synchronization problems. On the contrary, we
+are able to reduce communication overhead, thus increasing implementation
+speed and software quality.
+
 However, our two teams will keep in touch all the time to maximize the
 use of the multiple eyes principle, e.g. in mutual code reviews, 
-and to perform realtime optimization of manpower allocation if needed.
+and to allow for reallocation of manpower if needed.
 
-Team sizes will finally depend on the results of an initial effort analysis,
-but can easily be adjusted mid-implementation due to the close knowhow
-exchange. Finishing both parts in the same time frame will therefore be easy.
+The actual team sizes will depend on the results of an initial effort analysis,
+but might be adjusted during the implementation phase.
+As a result of this flexibility, we hope to manage finishing both tasks
+in the same time frame.
 
-Task three will be a joint implementation with both the developers who
-worked on task one and task two together. This is reasonable because
-task three can't be actively worked on whilst one of the two prior tasks is 
-still unfinished.
+Task three will be a collaborative effort of both teams.
+This is reasonable because task three cannot be designed and implemented
+as long as one of the two prior tasks is not finished.
 
 
 ###Roadmap and Milestones
@@ -56,19 +62,19 @@ Keeping track of our progress and eventually reallocating manpower,
 especially while working on the first two tasks in parallel, is therefore
 a major administrative duty throughout the whole development.
 
-Our *Milestones* are enumbered, critera to accomplish to reach them are
-itemized below each respective milestone: 
+Below you find a numbered list of our *milestones*, together with the
+criteria for their accomplishment:
 
 
 1. *Finished the initial effort analysis*
 	- Initial customer relationship management
 	- Team member allocation done
 	- Time frames determined
-	- Conceptually planned for tasks one and two
+	- Conceptually planned tasks one and two
 
 2. 
 	- a) **Finished the implementation of VF2**
-		- Implemented the VF2 algorithm and integrating it into the JgraphT library
+		- Implemented the VF2 algorithm and integrated it into the JgraphT library
 		- All unit and integration tests succeed
 		- Documentation written
 		- Customer acceptance testing performed 
@@ -84,9 +90,9 @@ itemized below each respective milestone:
 	- Conceptionally planned the implementation phase of task three
 
 4. **Finished second implementation phase: Project closure**
-	- Integrated JgraphT-VF2 into the modified ISGCI, combining task 1 and 2
+	- Integrated JgraphT-VF2 into the modified ISGCI, combining task one and two
 	- Implemented the graphing forbids-relation in ISGCI
-	- Rigorous code reviewing
+	- Rigorous code reviews performed
 	- All unit and integration tests succeed
 	- Documentation written
 	- Customer acceptance testing performed
