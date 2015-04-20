@@ -3,12 +3,13 @@
 Dear Mr de Ridder,
 
 thank you for choosing our team among several competitors to contribute 
-the tendered features to the JgraphT library and the ISGCI graph class
+the proposed features to the JgraphT library and the ISGCI graph class
 information system.
-We are very pleased with your order and we will do our best to
+We are very pleased with your mandate and we will do our best to
 satisfy your needs and expectations in this regard.
 
-Below, we describe what we are going to do during the next eleven weeks,
+Below, we describe how we are going to execute the project 
+during the next eleven weeks,
 covering both temporal and personnel concerns.
 
 ##Project organisation 
@@ -27,21 +28,22 @@ july 2015. These are:
 We have come to the conclusion that splitting our team into two subdivisions
 to tackle tasks one and two in parallel is the best approach to the given
 situation. Since complex algorithms such as VF2 aren't suitable to be 
-implemented in large teams, we prefer to let a small group of our
-best math and algorithm experts take care of this while the more 
-softwareengineering-dependant business of task two will be taken care 
-of simultaneously.
+implemented in large teams, we prefer to let a team of two or three 
+math and algorithm experts take care of task one while the more 
+software engineering heavy business of task two will be taken care 
+of simultaneously by another part of the team.
 Both jobs are completely independent, therefore working on them at the same
 time won't cause any problems and will dramatically reduce communication
 overhead, thus increasing implementation speed and software quality.
 However, our two teams will keep in touch all the time to maximize the
-use of the multiple eyes principle, e.g. in mutual code reviews.
+use of the multiple eyes principle, e.g. in mutual code reviews, 
+and to perform realtime optimization of manpower allocation if needed.
 
 Team sizes will finally depend on the results of an initial effort analysis,
 but can easily be adjusted mid-implementation due to the close knowhow
 exchange. Finishing both parts in the same time frame will therefore be easy.
 
-Task three will be a joint implementation with both the experts who
+Task three will be a joint implementation with both the developers who
 worked on task one and task two together. This is reasonable because
 task three can't be actively worked on whilst one of the two prior tasks is 
 still unfinished.
