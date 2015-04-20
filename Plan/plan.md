@@ -87,29 +87,32 @@ itemized below each respective milestone:
 
 
 ##Development Methodology
-We strongly prefer a rigid variant of scrum with self-imposed quality assurance
+We strongly prefer scrum with self-imposed quality assurance
 forcing ourselves to write good documentation, perform code reviews and 
-unittesting in every sprint. This enables us to dynamically allocate human 
+unit testing in every sprint. This enables us to dynamically allocate human 
 ressources as needed, maintain a high degree of customer contact and develop
 with relatively low bureaucratic overhead, whilst still delivering 
 the best possible result.
 
 ##Progress Tracking, Issue Tracking and Revision Control
-Overall progress is tracked by checking items on our roadmap, respectively
-our milestones in a coarser scope. This will be applicable due to the
+Overall progress is tracked by updating progress on our milestones 
+in a coarser scope, while the view of resolved and open issues will be used 
+to visualize the fine-grained progress. 
+This kind of tracking is be applicable due to the
 relatively small project extent of only approximately eleven weeks. 
 
 Issue tracking is - as in case of the JgraphT library - best performed
 by the GitHub internal issue tracking system. JgraphT is licensed under
 the GNU LGPL with their respective main repository already on GitHub,
 therefore forking them, implementing the new feature and reintegrating
-it into the main project on GitHub shall be no problem.
+it into the main project on GitHub shall be no problem. For the other tasks,
+we would like to use the same platform, after getting your agreement.
 
-If the customer wishes to keep tasks one and three closed source,
+If the you wish to keep tasks one and three closed source,
 we will take care of hosting our own centralized GIT repository
 on a team internal server, provided by one of our members.
 Anyway, issue and revision control are always closely related to the code,
-therefore combining both using GIT is substantially enhancing our productivity.
+therefore combining both using GitHub would be substantially enhancing our productivity.
 
 
 ##Meeting Schedules
@@ -117,7 +120,7 @@ Our team will meet at least once a week on thursday, 17:00 to discuss
 further development and sprint details. Every two weeks, Tino Klingebiel,
 our external advisor and consultant, will also participate in the meeting.
 
-Customer meetings will be definitely held on every milestone, on customer
+Customer meetings will be definitely held on every milestone, on your
 request and in case of serious ambiguities/problems during the development.
 
 ##Team Members and Responsibilities
@@ -167,7 +170,7 @@ Linux systems also influenced his broad skillset.
   
 Yours sincerely,
 
-....
+Team SPUNIKNSS15
 
 
 
