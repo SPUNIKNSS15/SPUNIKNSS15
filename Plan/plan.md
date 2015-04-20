@@ -56,35 +56,34 @@ Keeping track of our progress and eventually reallocating manpower,
 especially while working on the first two tasks in parallel, is therefore
 a major administrative duty throughout the whole development.
 
-Our *Milestones* are enumbered, subtasks on the way to their completion are
+Our *Milestones* are enumbered, critera to accomplish to reach them are
 itemized below each respective milestone: 
 
 
-1. *Finishing the initial effort analysis*
+1. *Finished the initial effort analysis*
 	- Initial customer relationship management
-	- Team member allocation
-	- Determining time frames
-	- Conceptual planning for tasks one and two
+	- Team member allocation done
+	- Time frames determined
+	- Conceptually planned for tasks one and two
 
-2. *Finishing the first implementation phase*
-	- Implementing VF2 and integrating it into the JgraphT library
-	- Replacing adjacency matrices in ISGCI with JgraphT objects
-	- Rigorous mutual code reviews 
-	- Rigorous testing
-	- Thorough documentation of the work done
-	- Customer acceptance testing for tasks one and two
+2. *Finished the first implementation phase*
+	- Implemented VF2 and integrating it into the JgraphT library
+	- Replaced adjacency matrices in ISGCI with JgraphT objects
+	- All unit and integration tests succeed
+	- Documentation written
+	- Customer acceptance testing performed for tasks one and two
 
-3. *Finishing the second analysis phase*
-	- Time is fixed now, eventually recalculating team workload per week
-	- Conceptional planning for task three
+3. *Finished the second analysis phase*
+	- Time is fixed now, potentially recalculated team workload per week
+	- Conceptionally planned for task three
 
-4. *Finishing second implementation phase: Project closure*
-	- Integrating JgraphT-VF2 into the modified ISGCI, combining task 1 and 2
-	- Implementing the graphing forbids-relation in ISGCI
+4. *Finished second implementation phase: Project closure*
+	- Integrated JgraphT-VF2 into the modified ISGCI, combining task 1 and 2
+	- Implemented the graphing forbids-relation in ISGCI
 	- Rigorous code reviewing
-	- Rigorous testing
-	- Thorough documentation
-	- Customer acceptance testing	
+	- All unit and integration tests succeed
+	- Documentation written
+	- Customer acceptance testing performed
 
 
 ##Development Methodology
