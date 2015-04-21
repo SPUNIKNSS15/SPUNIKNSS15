@@ -66,7 +66,7 @@ Below you find a numbered list of our *milestones*, together with the
 criteria for their accomplishment:
 
 
-1. *Finished the initial effort analysis*
+1. **Finished the initial effort analysis**
 	- Initial customer relationship management
 	- Team member allocation done
 	- Time frames determined
@@ -105,6 +105,11 @@ unit testing in every sprint. This enables us to dynamically allocate human
 ressources as needed, maintain a high degree of customer contact and develop
 with relatively low bureaucratic overhead, while still delivering 
 the best possible result.
+Scrum is obviously just an outer development
+framework. Finer structures will be choosen depending on the results of the
+analysis phases, the requirements of the projects,
+the preferences of the team members and according to customers 
+guidelines regarding each of the three tasks.
 
 ##Progress Tracking, Issue Tracking and Revision Control
 The coarse progress will be tracked using simple markers on our
