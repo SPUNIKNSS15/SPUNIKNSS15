@@ -1,0 +1,46 @@
+\documentclass[t]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{caption}
+
+\newcommand{\beamerred}{\usebeamercolor[fg]{frametitle}}
+\newcommand{\beamerblue}{\usebeamercolor[fg]{description item}}
+
+\setbeamertemplate{section in toc}{\hspace*{1em}{\beamerred \inserttocsectionnumber.~\inserttocsection}\par}
+\setbeamertemplate{subsection in toc}{\hspace*{2em}\inserttocsectionnumber.\inserttocsubsectionnumber~\inserttocsubsection\par}
+
+\beamertemplatenavigationsymbolsempty
+\useoutertheme{infolines}
+\usecolortheme{beaver}
+\setbeamertemplate{headline}{}
+
+\title{Projektpräsentation: Subgraph isomorphisms}
+\author{Team SPUNIKNSS15}
+\date{}
+\titlegraphic{\vspace{-0.8cm}\includegraphics[width=\textwidth]{../../Logo/logo_no_text.png}}
+
+\begin{document}
+  \input{titlepage}
+  \frame{
+    \tableofcontents
+  }
+  \section{Funktionsweise von ISGCI und VF2}
+  \input{funktionsweise_isgci}
+  \input{funktionsweise_vf2}
+  \section{Projektablauf}
+    \input{projektablauf}
+    \subsection{Lange Analysephase}
+    \input{analysephase}
+    \subsection{Teamaufteilung}
+    \input{teamaufteilung}
+    \subsection{Trennung der Milestones (??)}
+    \input{milestones}
+    \subsection{Reflektion}
+    \input{reflektion}
+    \subsection{Extras}
+    \input{extras}
+  \section{Laufzeit}
+  \input{laufzeit}
+\end{document}
