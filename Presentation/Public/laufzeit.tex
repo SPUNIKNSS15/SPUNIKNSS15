@@ -1,0 +1,47 @@
+\renewcommand{\mark}[1]{\node[circle,fill=#1] {};}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (1)}{}
+  {\beamerblue Vor unseren Änderungen.\newline}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/0-start.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ 150 Minuten
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (2)}{}
+  {\beamerblue Verwendung der ersten Version des Java-VF2 anstelle der C++ Version.\newline}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/1-vf2-replaced.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ über 12 Stunden
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (3)}{}
+  {\beamerblue Weglassen der Erzeugung sämtlicher Subgraphen, stattdessen direkter Test
+   auf Subisomorphie.}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/2-without-usg-creation.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ 200 Minuten
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (4)}{}
+  {\beamerblue Konsequente Verwendung von \texttt{VF2} in allen Isomorphietests,
+   \texttt{VF2} sortiert zudem nach Knotengrad vor.}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/3-consequent-vf2.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ wieder 150 Minuten
+  \end{center}
+\end{frame}
