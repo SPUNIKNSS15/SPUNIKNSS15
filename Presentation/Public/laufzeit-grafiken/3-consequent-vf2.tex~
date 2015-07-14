@@ -7,8 +7,8 @@
 \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
 \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
 \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
-\mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
-\mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
-\mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
+\mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white}\\
+\mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white}\\
+\mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white} \& \mark{black!50!white}\\
 };
 \end{tikzpicture}

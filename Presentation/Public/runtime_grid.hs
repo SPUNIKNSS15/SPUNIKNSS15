@@ -7,10 +7,10 @@ data Color = ColorName String
 instance Show Color where
    show (ColorName id) = id
   -- show (RGB r g b) = '(' : show r  ++ ", " ++ show g ++ ", " ++ show b ++ ")"
-   show Empty = "black!50!white"
+   show Empty = ""
 
 tikzColor :: Color -> String
---tikzColor Empty = ""
+tikzColor Empty = "\\emptycirc"
 tikzColor c = "\\mark{" ++ (show c ++ "}")
 
 stream :: [(a, Int)] -> [a]
@@ -43,6 +43,11 @@ coloring tBefore tNow | tBefore <= tNow = (colorBefore, cellsBefore) : (colorWor
                             diff = abs $ cellsBefore - cellsNow
 
 mStart = colorMatrix (coloring 150 150) size
-mWithoutUSGS = colorMatrix (coloring 150 200) size
+mWithoutUSGS = colorMatrix (coloring 200 200) size
 mConsequentVF2 = colorMatrix (coloring 200 150) size
+mParallel = colorMatrix (coloring 50 50) size
+mNullComparator = colorMatrix (coloring 30 30) size
+mComplements = colorMatrix (coloring 12 12) size
+mVF2Improved1 = colorMatrix (coloring 4 4) size
+mVF2Improved2 = colorMatrix (coloring 2 2) size
 

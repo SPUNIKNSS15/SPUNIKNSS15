@@ -1,4 +1,5 @@
 \renewcommand{\mark}[1]{\node[circle,fill=#1] {};}
+\newcommand{\emptycirc}{\node[circle,draw] {};}
 
 \begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (1)}{}
   {\beamerblue Vor unseren Änderungen.\newline}
@@ -43,5 +44,78 @@
   \end{figure}
   \begin{center}
     \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ wieder 150 Minuten
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (5)}{}
+  {\beamerblue Parallelisierung der Subisomorphieberechnung für große Graphen.\newline}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/4-bigsmallmembers-parallel.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ 50 Minuten
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (6)}{}
+  {\beamerblue Caching von Kanten im \texttt{VF2}.\newline}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/5-null-comparator.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ 30 Minuten
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (7)}{}
+  {\beamerblue Isomorphietest auf dem Graphen bzw. Komplement mit weniger Kanten.\newline}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/6-complements.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ 12 Minuten
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (8)}{}
+  {\beamerblue Weiterentwicklung des \texttt{VF2}...\newline}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/7-vf2-improvement.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ 4 Minuten
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{Laufzeit von \texttt{FindISG} - (9)}{}
+  {\beamerblue ...\texttt{VF2} nochmals verbessert.\newline}
+  \begin{figure}
+    \centering
+    \input{laufzeit-grafiken/8-vf2-improvement.tex}
+  \end{figure}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ 2 Minuten
+  \end{center}
+\end{frame}
+
+\begin{frame}[<+->]{\texttt{FindISG} - Resultat}{}
+  \begin{columns}<.->
+    \column{0.5\textwidth}<.->
+      \begin{figure}
+        \centering
+        \input{laufzeit-grafiken/0-start.tex}
+      \end{figure}
+    \column{0.5\textwidth}<.->
+      \begin{figure}
+        \centering
+        \input{laufzeit-grafiken/8-vf2-improvement.tex}
+      \end{figure}
+  \end{columns}
+  \begin{center}
+    \includegraphics[width=0.4cm]{stop-watch-icon.png} \bf ~~~ Von 150 Minuten auf 2 Minuten
   \end{center}
 \end{frame}

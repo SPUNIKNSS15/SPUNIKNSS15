@@ -7,8 +7,8 @@
 \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
 \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
 \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
-\mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
-\mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
-\mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black}\\
+\mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{black} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red}\\
+\mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red}\\
+\mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red} \& \mark{red}\\
 };
 \end{tikzpicture}
